@@ -6,8 +6,7 @@ plugins {
     id("io.spring.dependency-management") version "1.1.4"
 }
 
-group = "com.zana"
-version = "0.1.0"
+group = "io.zana.bitter"
 
 repositories {
     mavenCentral()
@@ -32,7 +31,7 @@ java {
 }
 
 application {
-    mainClass = "com.zana.bitter.BitterApplication"
+    mainClass = "io.zana.bitter.authentication.AuthenticationApplication"
 }
 
 tasks.withType<Test> {

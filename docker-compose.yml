@@ -2,7 +2,7 @@ services:
   database:
     image: postgres
     environment:
-      POSTGRES_DB: postgres
+      POSTGRES_DB: bitter
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:

@@ -1,12 +1,12 @@
-package com.zana.bitter;
+package io.zana.bitter.authentication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BitterApplication {
+public class AuthenticationApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BitterApplication.class, args);
+        SpringApplication.run(AuthenticationApplication.class, args);
     }
 }
